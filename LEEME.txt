@@ -1,0 +1,31 @@
+JARVIS para iPhone — versión mejorada
+
+CAMBIOS
+- Escucha automática continua mientras la página está abierta y el navegador lo permita.
+- Palabra de activación: «Jarvis». Di «Jarvis, abre YouTube», «Jarvis, abre Spotify», «Jarvis, abre Maps», etc.
+- Se han añadido accesos y comandos para Google Maps, Gmail, Calendar, Telegram, Netflix, Amazon y X.
+- Botón para parar la escucha y la voz.
+
+CÓMO USARLO
+1. Publica los archivos en un hosting HTTPS.
+2. Abre la web en Safari en el iPhone y añádela a la pantalla de inicio si quieres.
+3. Pulsa una vez «Activar escucha automática» y concede permiso al micrófono.
+4. Con la página abierta y en primer plano, di «Jarvis» seguido de una orden.
+5. Pulsa «Parar escucha/voz» para detenerlo.
+
+LIMITACIONES IMPORTANTES
+- Por las restricciones de iOS y de los navegadores, no se puede garantizar escucha permanente en segundo plano ni activación si la app está cerrada o el móvil bloqueado. Safari puede cortar el reconocimiento; en ese caso vuelve a activar la escucha.
+- El navegador puede exigir una pulsación inicial para conceder el permiso del micrófono. Después intenta mantener el reconocimiento activo automáticamente.
+- «Reconocer la voz» aquí significa convertir el habla en texto y detectar órdenes en español; no identifica de forma biométrica quién está hablando.
+- Los enlaces abren los servicios web oficiales. iOS decide si abre la app instalada o el navegador; no todas las apps permiten abrirse directamente desde una PWA.
+- El reconocimiento de voz depende de la versión de iOS/Safari y puede no estar disponible en todos los contextos.
+- Sigue siendo un asistente de comandos predefinidos, no una IA online completa. No se ha conectado ningún servicio externo de IA.
+- La instalación PWA requiere HTTPS. Si el sitio ya estaba publicado, vuelve a subir los archivos y recarga la web; puede hacer falta limpiar la caché.
+
+
+
+Versión diseño dorado RGB: fondo negro, núcleo RGB, detalles dorados suaves y accesos rápidos al final. Añadidos Plex y Riot Mobile.
+
+
+ACCESOS PERSONALIZADOS
+Se han quitado los accesos a Calendario, Netflix, Gmail, Telegram y Amazon, tal como se pidió. Se mantienen los demás accesos, incluidos Plex, Google Maps y Riot Mobile.
